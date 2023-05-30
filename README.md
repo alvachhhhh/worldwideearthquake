@@ -1,1 +1,1 @@
-# worldwideearthquake.github.io
+# [worldwideearthquake.github.io](https://alvachhhhh.github.io/worldwideearthquake/)
