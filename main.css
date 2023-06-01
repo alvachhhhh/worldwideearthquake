@@ -4,23 +4,6 @@ body {
   cursor: none;
 }
 
-.link {
-  position: absolute;
-  color: rgb(0, 0, 0); 
-  text-decoration: underline; 
-  font-family: Courier;
-  font-size: 14px;
-  font-weight: 100;
-  right: 70px;
-  bottom:20px;
-}
-
-.link:hover {
-  color: rgb(132, 132, 132); 
-}
-
-
-
 #text-container h1{
   position: absolute;
   display: inline-block;
@@ -73,6 +56,39 @@ body {
   font-weight:100;
   letter-spacing: 0.1em;
   transform: translateY(100%);
+}
+
+
+.link {
+  position: absolute;
+  color: rgb(0, 0, 0); 
+  text-decoration: underline; 
+  font-family: Courier;
+  font-size: 14px;
+  font-weight: 100;
+  right: 70px;
+  bottom:20px;
+}
+
+.link:hover {
+  color: rgb(132, 132, 132); 
+}
+
+
+
+.contact {
+  position: absolute;
+  color: rgb(0, 0, 0); 
+  text-decoration: underline; 
+  font-family: Courier;
+  font-size: 14px;
+  font-weight: 100;
+  right: 200px;
+  bottom:20px;
+}
+
+.contact:hover {
+  color: rgb(132, 132, 132); 
 }
 
 
