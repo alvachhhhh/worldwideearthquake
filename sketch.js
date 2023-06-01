@@ -128,7 +128,7 @@ function draw() {
       
       //print(extractedValue);
 
-      const curveAmount = map(sig, 0, 1000, 0, 1000) * map(mag, -1, 10, -10, 10);
+      const curveAmount = map(sig, 0, 1000, 2, 1000) * map(mag, -1, 10, -10, 10);
 
       const y = yScale(feature.properties.time) * 0.5 + yOffset;
 
