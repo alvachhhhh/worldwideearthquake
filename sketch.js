@@ -155,7 +155,7 @@ function draw() {
       if (isMouseOverCurve(curvePoints)) {
 
         noFill();
-        stroke(255, 155, 0); // 将线的颜色设置为红色
+        stroke(255, 155, 0); 
         strokeWeight(0.5);
         beginShape();
         let x;
@@ -206,7 +206,7 @@ function generateCurvePoints(curveAmount, y, timeOffset) {
 }
 
 function handleMouseMove(event) {
-  let foundHoveredLine = false; // 标记是否找到悬停的线
+  let foundHoveredLine = false; 
 
   for (let i = 0; i < curves.length; i++) {
     const curvePoints = curves[i];
@@ -217,26 +217,26 @@ function handleMouseMove(event) {
     }
   }
 
-  // 如果没有找到悬停的线，则将 hoveredLineIndex 设置为 -1
+
   if (!foundHoveredLine) {
     hoveredLineIndex = -1;
   }
 
-  // 更新鼠标是否悬停在曲线附近的状态
+
   isMouseOverCurve = foundHoveredLine;
 }
 
 
 
 function isMouseOverCurve(curvePoints) {
-  const tolerance = 20; // 容差，用于判断鼠标是否悬停在线附近
+  const tolerance = 20; 
 
   for (let i = 0; i < curvePoints.length; i++) {
     const point = curvePoints[i];
     const x = point[0];
     const y = point[1];
 
-    // 判断鼠标是否在当前点附近
+
     if (dist(mouseX, mouseY, x, y) <= tolerance) {
       return true;
     }
@@ -272,7 +272,6 @@ document.addEventListener('DOMContentLoaded', function() {
     cursor.style.display = 'block';
   });
 });
-
 
 
 
